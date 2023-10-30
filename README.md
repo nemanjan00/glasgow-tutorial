@@ -9,6 +9,16 @@ mkdir -p software/glasgow/applet/interface/whatever
 cp examples/boilerplate.py software/glasgow/applet/interface/whatever/__init__.py
 ```
 
+## Add applet to `pyproject.toml`
+
+Within `[project.entry-points."glasgow.applet"]` section, add applet like this:
+
+```
+whatever = "glasgow.applet.interface.whatever:WhateverApplet"
+```
+
+Reinstall package
+
 ## Rename class names
 
  * `BoilerplateSubtarget` - Elaboratable, class that returns amaranth module
