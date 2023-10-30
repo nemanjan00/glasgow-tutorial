@@ -77,6 +77,10 @@ In fifo is for USB<-FPGA communication and has:
 
  * `w_rdy` - Buffer is ready to receive data
 
+## Registers
+
+Missing for now
+
 ## Interacting with FPGA from applet
 
 To talk to FPGA, you should use `iface` argument of `interact` method.
