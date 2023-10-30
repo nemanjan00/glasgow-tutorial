@@ -53,6 +53,8 @@ Inside of `build` method, there is module already defined, now you just need to 
 
 Keep in mind module will "run" only as long as `interact` method of `GlasgowApplet` implementing did not return anything, so at this point you want to implement mechanism to like sleep or read line from stdin, to stop applet from exiting
 
+Any changes to module will require rebuild.
+
 ## Communicating with applet, from FPGA
 
 For communication with applet, you have in and out fifo.
