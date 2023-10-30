@@ -65,7 +65,7 @@ To talk to FPGA, you should use `iface` argument of `interact` method.
 
 It has:
 
- * `read()` - async read 1 byte
+ * `read()` - async read buffer
 
  * `write(data)` - async write n bytes
 
