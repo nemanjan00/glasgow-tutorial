@@ -37,6 +37,12 @@ You will have access to those pins in `Elaboratable` implementation constructor 
 
 To access `Signal` for one of pins, use `pads.rx_t` (if you want RX pin, for example, `_t` is appended by the glasgow lib)
 
+To pick pins on board, pass arguments to applet:
+
+```
+glasgow run whatever -V5 --pin-rx 0 --pin-tx 1
+```
+
 ## Implement amaranth module
 
 You can now start implementing `Elaboratable` module. 
