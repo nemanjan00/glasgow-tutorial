@@ -92,3 +92,7 @@ It has:
  * `flush()` - write incomplete buffer
 
  * `statistics()` - print statistics for fifo
+
+## Tracing
+
+You ca use `--trace` argument for `glasgow run` cli, to also include `analyze` gateware which will record state of your pins in `vcd` file
