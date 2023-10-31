@@ -37,6 +37,15 @@ You will have access to those pins in `Elaboratable` implementation constructor 
 
 To access `Signal` for one of pins, use `pads.rx_t` (if you want RX pin, for example, `_t` is appended by the glasgow lib)
 
+It consists of:
+
+ * pads.rx_t.i - input
+
+ * pads.rx_t.o - output
+
+ * pads.rx_t.oe - output enable
+
+
 To pick pins on board, pass arguments to applet:
 
 ```
